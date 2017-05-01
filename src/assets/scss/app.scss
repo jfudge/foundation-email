@@ -1,0 +1,49 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+.main-content td.wrapper-inner {
+    padding: 30px 0;
+    border-top: 1px solid lighten($dark-gray, 65%);
+    border-bottom: 1px solid lighten($dark-gray, 65%);
+}
+
+.no-bb td.wrapper-inner {
+    border-bottom: none;
+}
+
+.welcome p{
+    padding: 5px;
+}
+
+.green{
+    color: #84a220;
+}
+
+.blue{
+    background: #31394c;
+}
+
+.custom-list p {
+    font-size: 85%;
+}
+
+.custom-features .columns table th {
+    padding: 0 1em;
+}
+
+.secondary-content td.wrapper-inner {
+    padding: 30px;
+    background-color: lighten($dark-gray, 70%);
+}
+
+.custom-image {
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+    .custom-image {
+        margin-bottom: 30px;
+    }
+}
